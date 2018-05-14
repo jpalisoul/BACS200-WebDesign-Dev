@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>The Pet Matchmaker About Pets Webpage</title>
+	<meta charset="utf-8" />
+    <meta name = "description" content= "The Pet Matchmaker About Pets Page, Everything you need to know about adopting a pet! Our site finds the pet that is right for you. We find shelter pets a home.">
+    <meta name = "keywords" content= "The Pet Matchmaker, Adoption, Pets, Animals, About Pets, Family, Dog, Cat, Wildlife, Pig">
+<link href="su_styles.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('assets/dogdes.JPG','assets/catdes.JPG','assets/otherdes.JPG','assets/wildlifedes.JPG')">
+<div class="gridContainer clearfix">
+<div id="content" class="fluid">
+<header class="fluid header_div"></header>
+<div class="fluid intro_paragraph">
+<nav class="fluid menu_bar">
+                        <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="about_us.html">About Us</a></li>
+                            <li><a href="about_pets.html">About Pets</a></li>
+                            <li><a href="animals.html">Animals</a></li>
+                            <li><a href="donate.html">Donate</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+				</p>
+  			</header>
+			<section class="title_text">
+				Everything About Pets 
+			</section>
+            <a href="donate.html"><img src="assets/Donate.JPG" alt="A picture of a heart with the writing donate. Links to the pet matchmaker donation page." width="100" class="img_float_right" title="Donation Heart"/></a>
+            <section class="text_small">
+            A key part of our mission is having great information available for you. TPM covers all kinds of companion animals. We have lots of features on dogs and cats. But we also have items on more unusual pets, like stick bugs and chickens. TPM knows that everybody loves their companion animal. It doesn’t matter what species you have.
+
+ 
+
+The Pet Matchmaker will bring you all the information you need to:
+
+Plan for your pet.
+Search for your pet.
+Care for your pet their entire lives.
+ 
+
+If you’ve already got your purrrfect companion animal, we can still help. Your animal’s needs will change throughout her life. A puppy has different needs than a senior dog. A kitten likes different things than a cat. Even fish change as they age! TPM will offer you resources for every stage of your pet’s life.
+            </section>
+            <section>
+            <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Dogs','','assets/dogdes.JPG',1)"><img src="assets/blackadultdog.jpg" alt="A picture of a dog, and a rollover to the description of dogs" class="rollover_image" id="Dogs"></a> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Cats','','assets/catdes.JPG',1)"><img src="assets/catlayingdown.jpg" alt="A picture of a cat, and a description of cats." class="rollover_image" id="Cats"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Other Animals','','assets/otherdes.JPG',1)"><img src="assets/piglet.jpg" alt="A picture of a piglet, and a description of having other animals in your home." class="rollover_image" id="Other Animals"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Wildlife','','assets/wildlifedes.JPG',1)"><img src="assets/wildlife.jpg" alt="A picture of a wild animal, and the description of why we should not have these animals in our home." class="rollover_image" id="Wildlife"></a></section>
+		<footer>
+			<div class="fluid footer_div"><span class="small_text">Copyright 2016<br>
+				Last updated on 
+				<p id="demo"></p>
+					<script>
+						var d = new Date();
+						document.getElementById("demo").innerHTML = d;
+					</script>
+		  </span></div>
+</footer>
+</body>
+</html>
